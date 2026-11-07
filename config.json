@@ -1,0 +1,9 @@
+{
+  "rss_url": "https://www.boho.or.kr/kr/rss.do?bbsId=B0000133",
+  "output_dir": "output",
+  "request_timeout_seconds": 20,
+  "request_retries": 3,
+  "request_interval_seconds": 0.7,
+  "user_agent": "boho-rss-collector/1.0 (security-advisory research)",
+  "log_level": "INFO"
+}

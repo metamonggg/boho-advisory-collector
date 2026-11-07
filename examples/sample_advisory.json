@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "post_id": "72289",
+  "title": "인피니트헬스케어 제품 보안 업데이트 권고",
+  "published_at": "2026-11-07",
+  "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72289",
+  "overview": "제품 보안 업데이트 공지 예시입니다.",
+  "vulnerability_description": "Cross-site Scripting (CVE-2026-19876), 비밀번호 무차별 대입 (CVE-2026-19877)",
+  "cve_ids": [
+    "CVE-2026-19876",
+    "CVE-2026-19877"
+  ],
+  "vulnerability_types": [
+    "Cross-site Scripting",
+    "비밀번호 무차별 대입(Brute Force)"
+  ],
+  "manufacturers": [],
+  "affected_products": [
+    {
+      "manufacturer": null,
+      "product_name": "INFINITT ULite",
+      "affected_version": "5.0.2.1_BN48_20260528 이하",
+      "fixed_version_or_action": "5.0.2.1 BN50 이상",
+      "cve_ids": [
+        "CVE-2026-19876"
+      ],
+      "evidence": [
+        "CVE-2026-19876",
+        "INFINITT ULite",
+        "5.0.2.1_BN48_20260528 이하",
+        "5.0.2.1 BN50 이상"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "INFINITT ULite",
+      "affected_version": "5.0.2.1_BN48_20260528 이하",
+      "fixed_version_or_action": "5.0.2.1 BN50 이상",
+      "cve_ids": [
+        "CVE-2026-19877"
+      ],
+      "evidence": [
+        "CVE-2026-19877",
+        "INFINITT ULite",
+        "5.0.2.1_BN48_20260528 이하",
+        "5.0.2.1 BN50 이상"
+      ]
+    }
+  ],
+  "response": "참고 사이트의 안내에 따라 업데이트를 수행합니다.",
+  "references": [
+    {
+      "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72289",
+      "text": "보호나라 원문 공지"
+    }
+  ],
+  "review_required": false,
+  "warnings": []
+}
