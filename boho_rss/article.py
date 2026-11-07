@@ -257,7 +257,6 @@ def _parse_fixed_version_range(
             status="parsed",
             minimum={"version": fixed_version.strip(), "inclusive": True},
             maximum=None,
-            inferred_from="affected_version_range.maximum",
         )
     return result
 

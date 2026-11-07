@@ -56,8 +56,7 @@
           "version": "10.6_p2-r0",
           "inclusive": true
         },
-        "maximum": null,
-        "inferred_from": "affected_version_range.maximum"
+        "maximum": null
       }
     },
     {
@@ -82,8 +81,7 @@
           "version": "10.3_p1-r2",
           "inclusive": true
         },
-        "maximum": null,
-        "inferred_from": "affected_version_range.maximum"
+        "maximum": null
       }
     },
     {
@@ -108,8 +106,7 @@
           "version": "10.2_p1-r1",
           "inclusive": true
         },
-        "maximum": null,
-        "inferred_from": "affected_version_range.maximum"
+        "maximum": null
       }
     },
     {
@@ -134,8 +131,7 @@
           "version": "10.0_p1-r11",
           "inclusive": true
         },
-        "maximum": null,
-        "inferred_from": "affected_version_range.maximum"
+        "maximum": null
       }
     },
     {
@@ -160,8 +156,7 @@
           "version": "9.9_p2-r1",
           "inclusive": true
         },
-        "maximum": null,
-        "inferred_from": "affected_version_range.maximum"
+        "maximum": null
       }
     },
     {
@@ -186,8 +181,7 @@
           "version": "9.7_p1-r6",
           "inclusive": true
         },
-        "maximum": null,
-        "inferred_from": "affected_version_range.maximum"
+        "maximum": null
       }
     },
     {
@@ -212,8 +206,7 @@
           "version": "9.6_p1-r3",
           "inclusive": true
         },
-        "maximum": null,
-        "inferred_from": "affected_version_range.maximum"
+        "maximum": null
       }
     },
     {
@@ -238,8 +231,7 @@
           "version": "9.3_p2-r4",
           "inclusive": true
         },
-        "maximum": null,
-        "inferred_from": "affected_version_range.maximum"
+        "maximum": null
       }
     },
     {
@@ -264,8 +256,7 @@
           "version": "9.1_p1-r7",
           "inclusive": true
         },
-        "maximum": null,
-        "inferred_from": "affected_version_range.maximum"
+        "maximum": null
       }
     },
     {
@@ -290,8 +281,7 @@
           "version": "9.0_p1-r6",
           "inclusive": true
         },
-        "maximum": null,
-        "inferred_from": "affected_version_range.maximum"
+        "maximum": null
       }
     },
     {
