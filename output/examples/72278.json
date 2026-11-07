@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.3",
   "post_id": "72278",
   "title": "WordPress 제품 보안 업데이트 권고",
   "published_at": "2026-11-04",
@@ -19,7 +19,26 @@
       "fixed_version_or_action": "4.7.39 이상",
       "cve_ids": [
         "CVE-2026-119977"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "4.7.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "4.7.38",
+          "inclusive": true
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "4.7.39",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -28,7 +47,26 @@
       "fixed_version_or_action": "4.8.34 이상",
       "cve_ids": [
         "CVE-2026-119977"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "4.8.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "4.8.33",
+          "inclusive": true
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "4.8.34",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -37,7 +75,26 @@
       "fixed_version_or_action": "4.9.35 이상",
       "cve_ids": [
         "CVE-2026-119977"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "4.9.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "4.9.34",
+          "inclusive": true
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "4.9.35",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -46,7 +103,26 @@
       "fixed_version_or_action": "5.0.31 이상",
       "cve_ids": [
         "CVE-2026-119977"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "5.0.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "5.0.30",
+          "inclusive": true
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "5.0.31",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -55,7 +131,26 @@
       "fixed_version_or_action": "5.1.28 이상",
       "cve_ids": [
         "CVE-2026-119977"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "5.1.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "5.1.27",
+          "inclusive": true
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "5.1.28",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -64,7 +159,26 @@
       "fixed_version_or_action": "5.2.30 이상",
       "cve_ids": [
         "CVE-2026-119977"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "5.2.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "5.2.29",
+          "inclusive": true
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "5.2.30",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -73,7 +187,26 @@
       "fixed_version_or_action": "5.3.27 이상",
       "cve_ids": [
         "CVE-2026-119977"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "5.3.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "5.3.26",
+          "inclusive": true
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "5.3.27",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -82,7 +215,26 @@
       "fixed_version_or_action": "5.4.25 이상",
       "cve_ids": [
         "CVE-2026-119977"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "5.4.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "5.4.24",
+          "inclusive": true
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "5.4.25",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -91,7 +243,26 @@
       "fixed_version_or_action": "5.5.24 이상",
       "cve_ids": [
         "CVE-2026-119977"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "5.5.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "5.5.23",
+          "inclusive": true
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "5.5.24",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -100,7 +271,26 @@
       "fixed_version_or_action": "5.6.23 이상",
       "cve_ids": [
         "CVE-2026-119977"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "5.6.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "5.6.22",
+          "inclusive": true
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "5.6.23",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -109,7 +299,26 @@
       "fixed_version_or_action": "5.7.21 이상",
       "cve_ids": [
         "CVE-2026-119977"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "5.7.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "5.7.20",
+          "inclusive": true
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "5.7.21",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -118,7 +327,26 @@
       "fixed_version_or_action": "5.8.19 이상",
       "cve_ids": [
         "CVE-2026-119977"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "5.8.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "5.8.18",
+          "inclusive": true
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "5.8.19",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -127,7 +355,26 @@
       "fixed_version_or_action": "5.9.20 이상",
       "cve_ids": [
         "CVE-2026-119977"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "5.9.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "5.9.19",
+          "inclusive": true
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "5.9.20",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -136,7 +383,26 @@
       "fixed_version_or_action": "6.0.18 이상",
       "cve_ids": [
         "CVE-2026-119977"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "6.0.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "6.0.17",
+          "inclusive": true
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "6.0.18",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -145,7 +411,26 @@
       "fixed_version_or_action": "6.1.16 이상",
       "cve_ids": [
         "CVE-2026-119977"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "6.1.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "6.1.15",
+          "inclusive": true
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "6.1.16",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -154,7 +439,26 @@
       "fixed_version_or_action": "6.2.15 이상",
       "cve_ids": [
         "CVE-2026-119977"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "6.2.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "6.2.14",
+          "inclusive": true
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "6.2.15",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -163,7 +467,26 @@
       "fixed_version_or_action": "6.3.14 이상",
       "cve_ids": [
         "CVE-2026-119977"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "6.3.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "6.3.13",
+          "inclusive": true
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "6.3.14",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -172,7 +495,26 @@
       "fixed_version_or_action": "6.4.14 이상",
       "cve_ids": [
         "CVE-2026-119977"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "6.4.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "6.4.13",
+          "inclusive": true
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "6.4.14",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -181,7 +523,26 @@
       "fixed_version_or_action": "6.5.14 이상",
       "cve_ids": [
         "CVE-2026-119977"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "6.5.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "6.5.13",
+          "inclusive": true
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "6.5.14",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -190,7 +551,26 @@
       "fixed_version_or_action": "6.6.11 이상",
       "cve_ids": [
         "CVE-2026-119977"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "6.6.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "6.6.10",
+          "inclusive": true
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "6.6.11",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -199,7 +579,26 @@
       "fixed_version_or_action": "6.7.11 이상",
       "cve_ids": [
         "CVE-2026-119977"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "6.7.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "6.7.10",
+          "inclusive": true
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "6.7.11",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -208,7 +607,26 @@
       "fixed_version_or_action": "6.8.12 이상",
       "cve_ids": [
         "CVE-2026-119977"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "6.8.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "6.8.11",
+          "inclusive": true
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "6.8.12",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -217,7 +635,26 @@
       "fixed_version_or_action": "6.9.11 이상",
       "cve_ids": [
         "CVE-2026-119977"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "6.9.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "6.9.10",
+          "inclusive": true
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "6.9.11",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -226,7 +663,26 @@
       "fixed_version_or_action": "7.0.8 이상",
       "cve_ids": [
         "CVE-2026-119977"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "7.0.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "7.0.7",
+          "inclusive": true
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "7.0.8",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -235,7 +691,26 @@
       "fixed_version_or_action": "7.1.4 이상",
       "cve_ids": [
         "CVE-2026-119977"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "7.1.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "7.1.3",
+          "inclusive": true
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "7.1.4",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     }
   ],
   "references": [

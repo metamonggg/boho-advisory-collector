@@ -73,7 +73,7 @@ def parse_article(html: str, item: FeedItem, detail_url: str) -> dict[str, Any]:
     response = sections.get("response") or _read_response_after_table(content)
 
     return {
-        "schema_version": "1.0",
+        "schema_version": "1.3",
         "post_id": item.post_id,
         "title": title,
         "published_at": _read_date(date_text) or item.published_at,
@@ -158,12 +158,19 @@ def _read_products(content: Tag) -> tuple[list[dict[str, Any]], list[str]]:
             if product_key in seen:
                 continue
             seen.add(product_key)
+            affected_version_range = _parse_version_range(affected_version or None)
+            fixed_version_range = _parse_fixed_version_range(
+                fixed_version or None,
+                affected_version_range,
+            )
             products.append(
                 {
                     "manufacturer": manufacturer or None,
                     "product_name": product_name or None,
                     "affected_version": affected_version or None,
+                    "affected_version_range": affected_version_range,
                     "fixed_version_or_action": fixed_version or None,
+                    "fixed_version_range": fixed_version_range,
                     "cve_ids": cve_ids,
                     "evidence": row,
                 }
@@ -175,6 +182,84 @@ def _read_products(content: Tag) -> tuple[list[dict[str, Any]], list[str]]:
             )
 
     return products, warnings
+
+
+def _parse_version_range(
+    value: str | None, *, allow_description: bool = False
+) -> dict[str, Any]:
+    result: dict[str, Any] = {
+        "status": "needs_review",
+        "minimum": None,
+        "maximum": None,
+    }
+    if not value:
+        result["status"] = "not_provided"
+        return result
+
+    value = value.strip()
+    if allow_description:
+        value = re.sub(r"\s*\([^()]*\)\s*$", "", value).strip()
+        if ":" in value:
+            value = value.rsplit(":", 1)[-1].strip()
+
+    range_match = re.fullmatch(
+        r"(.+?)\s+(이상|초과)\s+(.+?)\s+(미만|이하)", value
+    )
+    if range_match:
+        minimum, minimum_operator, maximum, maximum_operator = (
+            part.strip() for part in range_match.groups()
+        )
+        result.update(
+            status="parsed",
+            minimum={
+                "version": minimum,
+                "inclusive": minimum_operator == "이상",
+            },
+            maximum={
+                "version": maximum,
+                "inclusive": maximum_operator == "이하",
+            },
+        )
+        return result
+
+    bound_match = re.fullmatch(r"(.+?)\s+(이상|초과|이하|미만)", value)
+    if bound_match:
+        version, operator = (part.strip() for part in bound_match.groups())
+        result["status"] = "parsed"
+        if operator in ("이상", "초과"):
+            result["minimum"] = {
+                "version": version,
+                "inclusive": operator == "이상",
+            }
+        else:
+            result["maximum"] = {
+                "version": version,
+                "inclusive": operator == "이하",
+            }
+    return result
+
+
+def _parse_fixed_version_range(
+    fixed_version: str | None,
+    affected_version_range: dict[str, Any],
+) -> dict[str, Any]:
+    result = _parse_version_range(fixed_version, allow_description=True)
+    maximum = affected_version_range["maximum"]
+    if (
+        fixed_version
+        and result["status"] == "needs_review"
+        and affected_version_range["status"] == "parsed"
+        and maximum is not None
+        and not maximum["inclusive"]
+        and fixed_version.strip() == maximum["version"]
+    ):
+        result.update(
+            status="parsed",
+            minimum={"version": fixed_version.strip(), "inclusive": True},
+            maximum=None,
+            inferred_from="affected_version_range.maximum",
+        )
+    return result
 
 
 def _read_references(content: Tag, detail_url: str) -> list[dict[str, str]]:

@@ -37,11 +37,15 @@ python -m boho_rss --config config.json
 
 - 게시글 ID, 제목, 게시일, 원문 URL
 - 개요, 취약점 설명, CVE 번호와 취약점 종류
-- 제조사, 제품명, 영향받는 버전, 해결 버전 또는 조치
+- 제조사, 제품명, 영향받는 버전 원문과 범위, 해결 버전 또는 조치
 - 대응 방법, 참고 링크, 본문 텍스트
 - 검토 필요 여부와 확인할 경고 목록
 
 제품과 CVE는 원문 표의 같은 행에 함께 적혀 있을 때만 연결합니다. 원문에서 찾지 못한 값은 만들어내지 않고 경고로 남깁니다.
+
+`affected_version`과 `fixed_version_or_action`에는 공지의 원문을 그대로 보존합니다. 각각 `affected_version_range`와 `fixed_version_range`에는 해석 가능한 `이상·초과·이하·미만` 조건을 `minimum`과 `maximum`으로 나눠 저장합니다. `inclusive`는 경계 버전을 포함하는지 나타냅니다. 해결 문구가 버전만 포함하고 연산자를 생략했더라도, 그 버전이 영향 범위의 exclusive maximum과 정확히 같으면 해결 최소 버전으로 저장하며 `inferred_from`에 추론 근거를 표시합니다. 제품별 버전 비교 규칙까지 확인했다는 뜻은 아닙니다. 해석할 수 없는 문구는 `status: "needs_review"`, 원문이 없으면 `status: "not_provided"`로 남깁니다.
+
+예를 들어 영향받는 버전 `9.0.47 이상 9.0.123 미만`은 `minimum: {"version": "9.0.47", "inclusive": true}`와 `maximum: {"version": "9.0.123", "inclusive": false}`가 되고, 해결 기준 `9.0.123 이상`은 `fixed_version_range.minimum`에 저장됩니다. 제품·배포판별 버전 비교는 별도 규칙이 필요하므로 이 결과만으로 자산의 취약 여부를 확정하지 않습니다.
 
 ## 설정
 

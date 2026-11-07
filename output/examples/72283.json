@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.3",
   "post_id": "72283",
   "title": "Debian 및 Ubuntu 패키지 매니저 APT 보안 업데이트 권고",
   "published_at": "2026-11-05",
@@ -19,7 +19,23 @@
       "fixed_version_or_action": "1.2.36 이상",
       "cve_ids": [
         "CVE-2026-109518"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": null,
+        "maximum": {
+          "version": "1.2.36",
+          "inclusive": false
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "1.2.36",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -28,7 +44,26 @@
       "fixed_version_or_action": "1.4.12 이상",
       "cve_ids": [
         "CVE-2026-109518"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "1.4.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "1.4.12",
+          "inclusive": false
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "1.4.12",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -37,7 +72,26 @@
       "fixed_version_or_action": "1.6.19 이상",
       "cve_ids": [
         "CVE-2026-109518"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "1.6.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "1.6.19",
+          "inclusive": false
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "1.6.19",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -46,7 +100,26 @@
       "fixed_version_or_action": "1.8.2.4 이상",
       "cve_ids": [
         "CVE-2026-109518"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "1.8.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "1.8.2.4",
+          "inclusive": false
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "1.8.2.4",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -55,7 +128,23 @@
       "fixed_version_or_action": "패치 미발표 ※지원 버전으로 전환 검토",
       "cve_ids": [
         "CVE-2026-109518"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "1.8.3",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "1.8.5",
+          "inclusive": true
+        }
+      },
+      "fixed_version_range": {
+        "status": "needs_review",
+        "minimum": null,
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -64,7 +153,26 @@
       "fixed_version_or_action": "2.0.12 이상",
       "cve_ids": [
         "CVE-2026-109518"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "2.0.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "2.0.12",
+          "inclusive": false
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "2.0.12",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -73,7 +181,26 @@
       "fixed_version_or_action": "2.2.5 이상",
       "cve_ids": [
         "CVE-2026-109518"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "2.2.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "2.2.5",
+          "inclusive": false
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "2.2.5",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -82,7 +209,26 @@
       "fixed_version_or_action": "2.4.15 이상",
       "cve_ids": [
         "CVE-2026-109518"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "2.4.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "2.4.15",
+          "inclusive": false
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "2.4.15",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -91,7 +237,26 @@
       "fixed_version_or_action": "2.6.2 이상",
       "cve_ids": [
         "CVE-2026-109518"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "2.6.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "2.6.2",
+          "inclusive": false
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "2.6.2",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -100,7 +265,26 @@
       "fixed_version_or_action": "2.8.4 이상",
       "cve_ids": [
         "CVE-2026-109518"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "2.8.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "2.8.4",
+          "inclusive": false
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "2.8.4",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -109,7 +293,26 @@
       "fixed_version_or_action": "3.0.4 이상",
       "cve_ids": [
         "CVE-2026-109518"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "3.0.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "3.0.4",
+          "inclusive": false
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "3.0.4",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -118,7 +321,26 @@
       "fixed_version_or_action": "3.2.1 이상",
       "cve_ids": [
         "CVE-2026-109518"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "3.2.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "3.2.1",
+          "inclusive": false
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "3.2.1",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -127,7 +349,26 @@
       "fixed_version_or_action": "3.3.6 이상",
       "cve_ids": [
         "CVE-2026-109518"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "3.3.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "3.3.6",
+          "inclusive": false
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "3.3.6",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -136,7 +377,23 @@
       "fixed_version_or_action": "1.0.1ubuntu2.24+esm4 이상",
       "cve_ids": [
         "CVE-2026-109518"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": null,
+        "maximum": {
+          "version": "1.0.1ubuntu2.24+esm4",
+          "inclusive": false
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "1.0.1ubuntu2.24+esm4",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -145,7 +402,26 @@
       "fixed_version_or_action": "1.2.36+esm1 이상",
       "cve_ids": [
         "CVE-2026-109518"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "1.2.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "1.2.36+esm1",
+          "inclusive": false
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "1.2.36+esm1",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -154,7 +430,26 @@
       "fixed_version_or_action": "1.6.19+esm1 이상",
       "cve_ids": [
         "CVE-2026-109518"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "1.6.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "1.6.19+esm1",
+          "inclusive": false
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "1.6.19+esm1",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -163,7 +458,26 @@
       "fixed_version_or_action": "2.0.12+esm1 이상",
       "cve_ids": [
         "CVE-2026-109518"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "2.0.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "2.0.12+esm1",
+          "inclusive": false
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "2.0.12+esm1",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -172,7 +486,26 @@
       "fixed_version_or_action": "2.4.15ubuntu0.1 이상",
       "cve_ids": [
         "CVE-2026-109518"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "2.4.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "2.4.15ubuntu0.1",
+          "inclusive": false
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "2.4.15ubuntu0.1",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -181,7 +514,26 @@
       "fixed_version_or_action": "2.8.4ubuntu0.1 이상",
       "cve_ids": [
         "CVE-2026-109518"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "2.8.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "2.8.4ubuntu0.1",
+          "inclusive": false
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "2.8.4ubuntu0.1",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -190,7 +542,26 @@
       "fixed_version_or_action": "3.2.1ubuntu0.1 이상",
       "cve_ids": [
         "CVE-2026-109518"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "3.2.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "3.2.1ubuntu0.1",
+          "inclusive": false
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "3.2.1ubuntu0.1",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -199,7 +570,26 @@
       "fixed_version_or_action": "3.3.3ubuntu0.1 이상",
       "cve_ids": [
         "CVE-2026-109518"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "3.3.0",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "3.3.3ubuntu0.1",
+          "inclusive": false
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "3.3.3ubuntu0.1",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     }
   ],
   "references": [

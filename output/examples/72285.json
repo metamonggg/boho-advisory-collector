@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.3",
   "post_id": "72285",
   "title": "엠투소프트 제품 보안 업데이트 권고",
   "published_at": "2026-11-06",
@@ -17,42 +17,147 @@
       "product_name": "ERS DataServer",
       "affected_version": "6.4.5.494 이하",
       "fixed_version_or_action": "6.4.5.495 이상 (최신 버전 : 6.4.5.506)",
-      "cve_ids": []
+      "cve_ids": [],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": null,
+        "maximum": {
+          "version": "6.4.5.494",
+          "inclusive": true
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "6.4.5.495",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": "엠투소프트",
       "product_name": "ERS DataServer",
       "affected_version": "7.4.4.684 이하",
       "fixed_version_or_action": "7.4.4.685 이상 (최신 버전 : 7.4.4.707)",
-      "cve_ids": []
+      "cve_ids": [],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": null,
+        "maximum": {
+          "version": "7.4.4.684",
+          "inclusive": true
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "7.4.4.685",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": "엠투소프트",
       "product_name": "ERS DataServer",
       "affected_version": "8.2.2.328 이하",
       "fixed_version_or_action": "8.2.2.329 이상 (최신 버전 : 8.2.2.359)",
-      "cve_ids": []
+      "cve_ids": [],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": null,
+        "maximum": {
+          "version": "8.2.2.328",
+          "inclusive": true
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "8.2.2.329",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": "엠투소프트",
       "product_name": "ERS ReportingServer 엔진(JavaViewer)",
       "affected_version": "CROWNIX Report&ERS 6 - Java Engine Version : 5.x 이상 5.5.14.1070 이하",
       "fixed_version_or_action": "CROWNIX Report&ERS 6 - Java Engine Version : 5.5.14.1071 이상 (최신 버전 : 5.5.14.1108)",
-      "cve_ids": []
+      "cve_ids": [],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "CROWNIX Report&ERS 6 - Java Engine Version : 5.x",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "5.5.14.1070",
+          "inclusive": true
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "5.5.14.1071",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": "엠투소프트",
       "product_name": "ERS ReportingServer 엔진(JavaViewer)",
       "affected_version": "CROWNIX Report&ERS 7 - Java Engine Version : 7.x 이상 7.4.3.960 이하",
       "fixed_version_or_action": "CROWNIX Report&ERS 7 - Java Engine Version : 7.4.3.961 이상 (최신 버전 : 7.4.3.1109)",
-      "cve_ids": []
+      "cve_ids": [],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "CROWNIX Report&ERS 7 - Java Engine Version : 7.x",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "7.4.3.960",
+          "inclusive": true
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "7.4.3.961",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     },
     {
       "manufacturer": "엠투소프트",
       "product_name": "ERS ReportingServer 엔진(JavaViewer)",
       "affected_version": "CROWNIX Report&ERS 8 - Java Engine Version : 8.x 이상 8.2.0.345 이하",
       "fixed_version_or_action": "CROWNIX Report&ERS 8 - Java Engine Version : 8.2.0.346 이상 (최신 버전 : 8.2.3.664)",
-      "cve_ids": []
+      "cve_ids": [],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "CROWNIX Report&ERS 8 - Java Engine Version : 8.x",
+          "inclusive": true
+        },
+        "maximum": {
+          "version": "8.2.0.345",
+          "inclusive": true
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "8.2.0.346",
+          "inclusive": true
+        },
+        "maximum": null
+      }
     }
   ],
   "references": [

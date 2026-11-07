@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.3",
   "post_id": "72288",
   "title": "OpenSSH 보안 업데이트 권고",
   "published_at": "2026-11-07",
@@ -19,7 +19,20 @@
       "fixed_version_or_action": "10.6p2",
       "cve_ids": [
         "CVE-2026-123158"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": null,
+        "maximum": {
+          "version": "10.6p1",
+          "inclusive": true
+        }
+      },
+      "fixed_version_range": {
+        "status": "needs_review",
+        "minimum": null,
+        "maximum": null
+      }
     },
     {
       "manufacturer": null,
@@ -28,7 +41,24 @@
       "fixed_version_or_action": "10.6_p2-r0",
       "cve_ids": [
         "CVE-2026-123158"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": null,
+        "maximum": {
+          "version": "10.6_p2-r0",
+          "inclusive": false
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "10.6_p2-r0",
+          "inclusive": true
+        },
+        "maximum": null,
+        "inferred_from": "affected_version_range.maximum"
+      }
     },
     {
       "manufacturer": null,
@@ -37,7 +67,24 @@
       "fixed_version_or_action": "10.3_p1-r2",
       "cve_ids": [
         "CVE-2026-123158"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": null,
+        "maximum": {
+          "version": "10.3_p1-r2",
+          "inclusive": false
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "10.3_p1-r2",
+          "inclusive": true
+        },
+        "maximum": null,
+        "inferred_from": "affected_version_range.maximum"
+      }
     },
     {
       "manufacturer": null,
@@ -46,7 +93,24 @@
       "fixed_version_or_action": "10.2_p1-r1",
       "cve_ids": [
         "CVE-2026-123158"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": null,
+        "maximum": {
+          "version": "10.2_p1-r1",
+          "inclusive": false
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "10.2_p1-r1",
+          "inclusive": true
+        },
+        "maximum": null,
+        "inferred_from": "affected_version_range.maximum"
+      }
     },
     {
       "manufacturer": null,
@@ -55,7 +119,24 @@
       "fixed_version_or_action": "10.0_p1-r11",
       "cve_ids": [
         "CVE-2026-123158"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": null,
+        "maximum": {
+          "version": "10.0_p1-r11",
+          "inclusive": false
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "10.0_p1-r11",
+          "inclusive": true
+        },
+        "maximum": null,
+        "inferred_from": "affected_version_range.maximum"
+      }
     },
     {
       "manufacturer": null,
@@ -64,7 +145,24 @@
       "fixed_version_or_action": "9.9_p2-r1",
       "cve_ids": [
         "CVE-2026-123158"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": null,
+        "maximum": {
+          "version": "9.9_p2-r1",
+          "inclusive": false
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "9.9_p2-r1",
+          "inclusive": true
+        },
+        "maximum": null,
+        "inferred_from": "affected_version_range.maximum"
+      }
     },
     {
       "manufacturer": null,
@@ -73,7 +171,24 @@
       "fixed_version_or_action": "9.7_p1-r6",
       "cve_ids": [
         "CVE-2026-123158"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": null,
+        "maximum": {
+          "version": "9.7_p1-r6",
+          "inclusive": false
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "9.7_p1-r6",
+          "inclusive": true
+        },
+        "maximum": null,
+        "inferred_from": "affected_version_range.maximum"
+      }
     },
     {
       "manufacturer": null,
@@ -82,7 +197,24 @@
       "fixed_version_or_action": "9.6_p1-r3",
       "cve_ids": [
         "CVE-2026-123158"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": null,
+        "maximum": {
+          "version": "9.6_p1-r3",
+          "inclusive": false
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "9.6_p1-r3",
+          "inclusive": true
+        },
+        "maximum": null,
+        "inferred_from": "affected_version_range.maximum"
+      }
     },
     {
       "manufacturer": null,
@@ -91,7 +223,24 @@
       "fixed_version_or_action": "9.3_p2-r4",
       "cve_ids": [
         "CVE-2026-123158"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": null,
+        "maximum": {
+          "version": "9.3_p2-r4",
+          "inclusive": false
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "9.3_p2-r4",
+          "inclusive": true
+        },
+        "maximum": null,
+        "inferred_from": "affected_version_range.maximum"
+      }
     },
     {
       "manufacturer": null,
@@ -100,7 +249,24 @@
       "fixed_version_or_action": "9.1_p1-r7",
       "cve_ids": [
         "CVE-2026-123158"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": null,
+        "maximum": {
+          "version": "9.1_p1-r7",
+          "inclusive": false
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "9.1_p1-r7",
+          "inclusive": true
+        },
+        "maximum": null,
+        "inferred_from": "affected_version_range.maximum"
+      }
     },
     {
       "manufacturer": null,
@@ -109,7 +275,24 @@
       "fixed_version_or_action": "9.0_p1-r6",
       "cve_ids": [
         "CVE-2026-123158"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "parsed",
+        "minimum": null,
+        "maximum": {
+          "version": "9.0_p1-r6",
+          "inclusive": false
+        }
+      },
+      "fixed_version_range": {
+        "status": "parsed",
+        "minimum": {
+          "version": "9.0_p1-r6",
+          "inclusive": true
+        },
+        "maximum": null,
+        "inferred_from": "affected_version_range.maximum"
+      }
     },
     {
       "manufacturer": null,
@@ -118,7 +301,17 @@
       "fixed_version_or_action": "해결 버전으로 마이그레이션",
       "cve_ids": [
         "CVE-2026-123158"
-      ]
+      ],
+      "affected_version_range": {
+        "status": "needs_review",
+        "minimum": null,
+        "maximum": null
+      },
+      "fixed_version_range": {
+        "status": "needs_review",
+        "minimum": null,
+        "maximum": null
+      }
     }
   ],
   "references": [
