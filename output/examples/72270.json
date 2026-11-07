@@ -1,0 +1,240 @@
+{
+  "schema_version": "1.0",
+  "post_id": "72270",
+  "title": "Apache 제품 보안 업데이트 권고",
+  "published_at": "2026-11-03",
+  "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72270",
+  "cve_ids": [
+    "CVE-2026-64618",
+    "CVE-2026-65874",
+    "CVE-2026-80353",
+    "CVE-2026-88041",
+    "CVE-2026-93446",
+    "CVE-2026-101296",
+    "CVE-2026-101356",
+    "CVE-2026-103119"
+  ],
+  "vulnerability_types": [
+    "SQL Injection",
+    "Time-of-check Time-of-use (TOCTOU) Race Condition",
+    "Incomplete Cleanup",
+    "Missing Critical Step in Authentication",
+    "Race Condition",
+    "Buffer Under-read"
+  ],
+  "manufacturers": [],
+  "affected_products": [
+    {
+      "manufacturer": null,
+      "product_name": "Apache Fineract",
+      "affected_version": "1.15.0 이하",
+      "fixed_version_or_action": "1.16.1 이상",
+      "cve_ids": [
+        "CVE-2026-64618"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "Apache Fineract",
+      "affected_version": "1.15.0 이하",
+      "fixed_version_or_action": "1.16.1 이상",
+      "cve_ids": [
+        "CVE-2026-65874"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "Apache Tomcat",
+      "affected_version": "9.0.47 이상 9.0.123 미만",
+      "fixed_version_or_action": "9.0.123 이상",
+      "cve_ids": [
+        "CVE-2026-80353"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "Apache Tomcat",
+      "affected_version": "11.0.0-M23 이상 11.0.27 미만",
+      "fixed_version_or_action": "11.0.27 이상",
+      "cve_ids": [
+        "CVE-2026-88041"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "Apache Tomcat",
+      "affected_version": "10.1.27 이상 10.1.61 미만",
+      "fixed_version_or_action": "10.1.61 이상",
+      "cve_ids": [
+        "CVE-2026-88041"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "Apache Tomcat",
+      "affected_version": "9.0.92 이상 9.0.123 미만",
+      "fixed_version_or_action": "9.0.123 이상",
+      "cve_ids": [
+        "CVE-2026-88041"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "Apache Tomcat",
+      "affected_version": "11.0.0-M21 이상 11.0.27 미만",
+      "fixed_version_or_action": "11.0.27 이상",
+      "cve_ids": [
+        "CVE-2026-93446"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "Apache Tomcat",
+      "affected_version": "10.1.25 이상 10.1.61 미만",
+      "fixed_version_or_action": "10.1.61 이상",
+      "cve_ids": [
+        "CVE-2026-93446"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "Apache Tomcat",
+      "affected_version": "9.0.90 이상 9.0.123 미만",
+      "fixed_version_or_action": "9.0.123 이상",
+      "cve_ids": [
+        "CVE-2026-93446"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "Apache Tomcat",
+      "affected_version": "11.0.0-M1 이상 11.0.27 미만",
+      "fixed_version_or_action": "11.0.27 이상",
+      "cve_ids": [
+        "CVE-2026-101296"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "Apache Tomcat",
+      "affected_version": "10.1.0-M1 이상 10.1.61 미만",
+      "fixed_version_or_action": "10.1.61 이상",
+      "cve_ids": [
+        "CVE-2026-101296"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "Apache Tomcat",
+      "affected_version": "9.0.0.M1 이상 9.0.123 미만",
+      "fixed_version_or_action": "9.0.123 이상",
+      "cve_ids": [
+        "CVE-2026-101296"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "Apache Tomcat",
+      "affected_version": "11.0.22 이상 11.0.27 미만",
+      "fixed_version_or_action": "11.0.27 이상",
+      "cve_ids": [
+        "CVE-2026-101356"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "Apache Tomcat",
+      "affected_version": "10.1.55 이상 10.1.61 미만",
+      "fixed_version_or_action": "10.1.61 이상",
+      "cve_ids": [
+        "CVE-2026-101356"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "Apache Tomcat",
+      "affected_version": "9.0.118 이상 9.0.123 미만",
+      "fixed_version_or_action": "9.0.123 이상",
+      "cve_ids": [
+        "CVE-2026-101356"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "Apache Tomcat",
+      "affected_version": "11.0.0-M25 이상 11.0.27 미만",
+      "fixed_version_or_action": "11.0.27 이상",
+      "cve_ids": [
+        "CVE-2026-103119"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "url": "https://lists.apache.org/thread/s8orckszcd9x4d1qsloc046ppf5q9oc7",
+      "text": "https://lists.apache.org/thread/s8orckszcd9x4d1qsloc046ppf5q9oc7"
+    },
+    {
+      "url": "https://lists.apache.org/thread/c4q539mkm5blnp5vdb72tzq6r9qg7bdh",
+      "text": "https://lists.apache.org/thread/c4q539mkm5blnp5vdb72tzq6r9qg7bdh"
+    },
+    {
+      "url": "https://lists.apache.org/thread/tr0q87qwvs80p9hc53tkwpzvnx0ywftr",
+      "text": "https://lists.apache.org/thread/tr0q87qwvs80p9hc53tkwpzvnx0ywftr"
+    },
+    {
+      "url": "https://lists.apache.org/thread/dnmm9l3byytg3l66nk1jrqfrl7jty7n1",
+      "text": "https://lists.apache.org/thread/dnmm9l3byytg3l66nk1jrqfrl7jty7n1"
+    },
+    {
+      "url": "https://lists.apache.org/thread/zh87okr5qspv4byzfpy2w6dqrokrnxzw",
+      "text": "https://lists.apache.org/thread/zh87okr5qspv4byzfpy2w6dqrokrnxzw"
+    },
+    {
+      "url": "https://lists.apache.org/thread/bl52b9go9ckoov8x4v3dt6rkm573cygd",
+      "text": "https://lists.apache.org/thread/bl52b9go9ckoov8x4v3dt6rkm573cygd"
+    },
+    {
+      "url": "https://lists.apache.org/thread/d1xjt7bbjqw7y7n5mcb4fm815hpfgc27",
+      "text": "https://lists.apache.org/thread/d1xjt7bbjqw7y7n5mcb4fm815hpfgc27"
+    },
+    {
+      "url": "https://lists.apache.org/thread/sk2cg4k077fwcqbm6tqz2n700nq06h80",
+      "text": "https://lists.apache.org/thread/sk2cg4k077fwcqbm6tqz2n700nq06h80"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64618",
+      "text": "https://nvd.nist.gov/vuln/detail/CVE-2026-64618"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65874",
+      "text": "https://nvd.nist.gov/vuln/detail/CVE-2026-65874"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80353",
+      "text": "https://nvd.nist.gov/vuln/detail/CVE-2026-80353"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88041",
+      "text": "https://nvd.nist.gov/vuln/detail/CVE-2026-88041"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93446",
+      "text": "https://nvd.nist.gov/vuln/detail/CVE-2026-93446"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101296",
+      "text": "https://nvd.nist.gov/vuln/detail/CVE-2026-101296"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101356",
+      "text": "https://nvd.nist.gov/vuln/detail/CVE-2026-101356"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103119",
+      "text": "https://nvd.nist.gov/vuln/detail/CVE-2026-103119"
+    }
+  ],
+  "review_required": false,
+  "warnings": []
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "post_id": "72285",
+  "title": "엠투소프트 제품 보안 업데이트 권고",
+  "published_at": "2026-11-06",
+  "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72285",
+  "cve_ids": [],
+  "vulnerability_types": [
+    "악의적인 파일 업로드 및 실행 가능"
+  ],
+  "manufacturers": [
+    "엠투소프트"
+  ],
+  "affected_products": [
+    {
+      "manufacturer": "엠투소프트",
+      "product_name": "ERS DataServer",
+      "affected_version": "6.4.5.494 이하",
+      "fixed_version_or_action": "6.4.5.495 이상 (최신 버전 : 6.4.5.506)",
+      "cve_ids": []
+    },
+    {
+      "manufacturer": "엠투소프트",
+      "product_name": "ERS DataServer",
+      "affected_version": "7.4.4.684 이하",
+      "fixed_version_or_action": "7.4.4.685 이상 (최신 버전 : 7.4.4.707)",
+      "cve_ids": []
+    },
+    {
+      "manufacturer": "엠투소프트",
+      "product_name": "ERS DataServer",
+      "affected_version": "8.2.2.328 이하",
+      "fixed_version_or_action": "8.2.2.329 이상 (최신 버전 : 8.2.2.359)",
+      "cve_ids": []
+    },
+    {
+      "manufacturer": "엠투소프트",
+      "product_name": "ERS ReportingServer 엔진(JavaViewer)",
+      "affected_version": "CROWNIX Report&ERS 6 - Java Engine Version : 5.x 이상 5.5.14.1070 이하",
+      "fixed_version_or_action": "CROWNIX Report&ERS 6 - Java Engine Version : 5.5.14.1071 이상 (최신 버전 : 5.5.14.1108)",
+      "cve_ids": []
+    },
+    {
+      "manufacturer": "엠투소프트",
+      "product_name": "ERS ReportingServer 엔진(JavaViewer)",
+      "affected_version": "CROWNIX Report&ERS 7 - Java Engine Version : 7.x 이상 7.4.3.960 이하",
+      "fixed_version_or_action": "CROWNIX Report&ERS 7 - Java Engine Version : 7.4.3.961 이상 (최신 버전 : 7.4.3.1109)",
+      "cve_ids": []
+    },
+    {
+      "manufacturer": "엠투소프트",
+      "product_name": "ERS ReportingServer 엔진(JavaViewer)",
+      "affected_version": "CROWNIX Report&ERS 8 - Java Engine Version : 8.x 이상 8.2.0.345 이하",
+      "fixed_version_or_action": "CROWNIX Report&ERS 8 - Java Engine Version : 8.2.0.346 이상 (최신 버전 : 8.2.3.664)",
+      "cve_ids": []
+    }
+  ],
+  "references": [
+    {
+      "url": "https://support.m2soft.co.kr/bbs/board.php?bo_table=notice&wr_id=61",
+      "text": "https://support.m2soft.co.kr/bbs/board.php?bo_table=notice&wr_id=61"
+    },
+    {
+      "url": "https://support.m2soft.co.kr/bbs/board.php?bo_table=notice&wr_id=56",
+      "text": "https://support.m2soft.co.kr/bbs/board.php?bo_table=notice&wr_id=56"
+    }
+  ],
+  "review_required": true,
+  "warnings": [
+    "본문에서 CVE 번호를 찾지 못했습니다."
+  ]
+}

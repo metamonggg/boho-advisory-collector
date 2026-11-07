@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "post_id": "72284",
+  "title": "에스티이지 제품 보안 조치 권고",
+  "published_at": "2026-11-06",
+  "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72284",
+  "cve_ids": [],
+  "vulnerability_types": [
+    "비인가 회원가입 및 부적절한 파일 업로드"
+  ],
+  "manufacturers": [
+    "에스티이지"
+  ],
+  "affected_products": [
+    {
+      "manufacturer": "에스티이지",
+      "product_name": "E-GENE ITSM",
+      "affected_version": "7.0 이하",
+      "fixed_version_or_action": null,
+      "cve_ids": []
+    }
+  ],
+  "references": [],
+  "review_required": true,
+  "warnings": [
+    "본문에서 CVE 번호를 찾지 못했습니다."
+  ]
+}

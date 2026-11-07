@@ -5,5 +5,7 @@ __pycache__/
 .env.*
 !.env.example
 data/*.sqlite3
-output/
+output/articles/
+output/raw_html/
+output/reports/
 .DS_Store

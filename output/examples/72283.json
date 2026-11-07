@@ -1,0 +1,229 @@
+{
+  "schema_version": "1.0",
+  "post_id": "72283",
+  "title": "Debian 및 Ubuntu 패키지 매니저 APT 보안 업데이트 권고",
+  "published_at": "2026-11-05",
+  "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72283",
+  "cve_ids": [
+    "CVE-2026-109518"
+  ],
+  "vulnerability_types": [
+    "UNIX Hard Link"
+  ],
+  "manufacturers": [],
+  "affected_products": [
+    {
+      "manufacturer": null,
+      "product_name": "APT (Debian)",
+      "affected_version": "1.2.36 미만",
+      "fixed_version_or_action": "1.2.36 이상",
+      "cve_ids": [
+        "CVE-2026-109518"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "APT (Debian)",
+      "affected_version": "1.4.0 이상 1.4.12 미만",
+      "fixed_version_or_action": "1.4.12 이상",
+      "cve_ids": [
+        "CVE-2026-109518"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "APT (Debian)",
+      "affected_version": "1.6.0 이상 1.6.19 미만",
+      "fixed_version_or_action": "1.6.19 이상",
+      "cve_ids": [
+        "CVE-2026-109518"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "APT (Debian)",
+      "affected_version": "1.8.0 이상 1.8.2.4 미만",
+      "fixed_version_or_action": "1.8.2.4 이상",
+      "cve_ids": [
+        "CVE-2026-109518"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "APT (Debian)",
+      "affected_version": "1.8.3 이상 1.8.5 이하",
+      "fixed_version_or_action": "패치 미발표 ※지원 버전으로 전환 검토",
+      "cve_ids": [
+        "CVE-2026-109518"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "APT (Debian)",
+      "affected_version": "2.0.0 이상 2.0.12 미만",
+      "fixed_version_or_action": "2.0.12 이상",
+      "cve_ids": [
+        "CVE-2026-109518"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "APT (Debian)",
+      "affected_version": "2.2.0 이상 2.2.5 미만",
+      "fixed_version_or_action": "2.2.5 이상",
+      "cve_ids": [
+        "CVE-2026-109518"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "APT (Debian)",
+      "affected_version": "2.4.0 이상 2.4.15 미만",
+      "fixed_version_or_action": "2.4.15 이상",
+      "cve_ids": [
+        "CVE-2026-109518"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "APT (Debian)",
+      "affected_version": "2.6.0 이상 2.6.2 미만",
+      "fixed_version_or_action": "2.6.2 이상",
+      "cve_ids": [
+        "CVE-2026-109518"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "APT (Debian)",
+      "affected_version": "2.8.0 이상 2.8.4 미만",
+      "fixed_version_or_action": "2.8.4 이상",
+      "cve_ids": [
+        "CVE-2026-109518"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "APT (Debian)",
+      "affected_version": "3.0.0 이상 3.0.4 미만",
+      "fixed_version_or_action": "3.0.4 이상",
+      "cve_ids": [
+        "CVE-2026-109518"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "APT (Debian)",
+      "affected_version": "3.2.0 이상 3.2.1 미만",
+      "fixed_version_or_action": "3.2.1 이상",
+      "cve_ids": [
+        "CVE-2026-109518"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "APT (Debian)",
+      "affected_version": "3.3.0 이상 3.3.6 미만",
+      "fixed_version_or_action": "3.3.6 이상",
+      "cve_ids": [
+        "CVE-2026-109518"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "APT (Ubuntu)",
+      "affected_version": "1.0.1ubuntu2.24+esm4 미만",
+      "fixed_version_or_action": "1.0.1ubuntu2.24+esm4 이상",
+      "cve_ids": [
+        "CVE-2026-109518"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "APT (Ubuntu)",
+      "affected_version": "1.2.0 이상 1.2.36+esm1 미만",
+      "fixed_version_or_action": "1.2.36+esm1 이상",
+      "cve_ids": [
+        "CVE-2026-109518"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "APT (Ubuntu)",
+      "affected_version": "1.6.0 이상 1.6.19+esm1 미만",
+      "fixed_version_or_action": "1.6.19+esm1 이상",
+      "cve_ids": [
+        "CVE-2026-109518"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "APT (Ubuntu)",
+      "affected_version": "2.0.0 이상 2.0.12+esm1 미만",
+      "fixed_version_or_action": "2.0.12+esm1 이상",
+      "cve_ids": [
+        "CVE-2026-109518"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "APT (Ubuntu)",
+      "affected_version": "2.4.0 이상 2.4.15ubuntu0.1 미만",
+      "fixed_version_or_action": "2.4.15ubuntu0.1 이상",
+      "cve_ids": [
+        "CVE-2026-109518"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "APT (Ubuntu)",
+      "affected_version": "2.8.0 이상 2.8.4ubuntu0.1 미만",
+      "fixed_version_or_action": "2.8.4ubuntu0.1 이상",
+      "cve_ids": [
+        "CVE-2026-109518"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "APT (Ubuntu)",
+      "affected_version": "3.2.0 이상 3.2.1ubuntu0.1 미만",
+      "fixed_version_or_action": "3.2.1ubuntu0.1 이상",
+      "cve_ids": [
+        "CVE-2026-109518"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "APT (Ubuntu)",
+      "affected_version": "3.3.0 이상 3.3.3ubuntu0.1 미만",
+      "fixed_version_or_action": "3.3.3ubuntu0.1 이상",
+      "cve_ids": [
+        "CVE-2026-109518"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "url": "https://lists.debian.org/deity/2026/11/msg00005.html",
+      "text": "https://lists.debian.org/deity/2026/11/msg00005.html"
+    },
+    {
+      "url": "https://lists.debian.org/debian-security-announce/2026/msg00526.html",
+      "text": "https://lists.debian.org/debian-security-announce/2026/msg00526.html"
+    },
+    {
+      "url": "https://lists.debian.org/debian-lts-announce/2026/11/msg00004.html",
+      "text": "https://lists.debian.org/debian-lts-announce/2026/11/msg00004.html"
+    },
+    {
+      "url": "https://ubuntu.com/security/notices/USN-8996-1",
+      "text": "https://ubuntu.com/security/notices/USN-8996-1"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109518",
+      "text": "https://nvd.nist.gov/vuln/detail/CVE-2026-109518"
+    }
+  ],
+  "review_required": false,
+  "warnings": []
+}

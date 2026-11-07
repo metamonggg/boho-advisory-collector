@@ -233,8 +233,10 @@
         <div>├── <a href="boho_rss/models.py">boho_rss/models.py</a> <span class="muted">RSS 게시글 데이터 모양</span></div>
         <div>├── <a href="config.json">config.json</a> <span class="muted">RSS 주소와 요청 설정</span></div>
         <div>├── <a href="requirements.txt">requirements.txt</a> <span class="muted">설치할 외부 라이브러리 목록</span></div>
-        <div>├── <a href="examples/sample_advisory.json">examples/sample_advisory.json</a> <span class="muted">JSON 형식 예시</span></div>
-        <div>└── output/articles/ <span class="muted">수집된 JSON 파일</span></div>
+        <div>├── <a href="examples/sample_advisory.json">examples/sample_advisory.json</a> <span class="muted">간단한 JSON 예시</span></div>
+        <div>└── output/</div>
+        <div>&nbsp;&nbsp;&nbsp;├── output/articles/ <span class="muted">실행 뒤 로컬에 생성되는 전체 결과</span></div>
+        <div>&nbsp;&nbsp;&nbsp;└── <a href="output/examples/">output/examples/</a> <span class="muted">GitHub에 포함된 구조화 예시 결과</span></div>
       </div>
       <div class="table-wrap">
         <table>
@@ -359,7 +361,7 @@ python -m boho_rss</code></pre>
         </table>
       </div>
       <p>최상위 <code>cve_ids</code>는 공지 전체의 CVE 목록이고, <code>affected_products</code> 안의 CVE는 제품별 연결 정보입니다. 두 곳에 CVE가 보이는 것은 목적이 달라서이며, 제품과 CVE의 연관성을 분석할 때 제품별 목록을 사용하면 됩니다.</p>
-      <p>실제 공지의 긴 본문을 공개 저장소에 그대로 복사하지 않고, <a href="examples/sample_advisory.json">예시 JSON</a>에는 구조를 이해하는 데 필요한 일부 필드만 담았습니다. 실행해서 만들어지는 전체 결과는 로컬 <code>output/articles/</code>에 저장됩니다.</p>
+      <p>저장소의 <a href="output/examples/">output/examples/</a>에는 실제 공개 공지에서 추출한 CVE·제품·버전 등의 구조화된 예시 결과가 있습니다. 원문 설명 문장과 전체 본문은 포함하지 않습니다. 실행 시 생성되는 전체 결과는 로컬 <code>output/articles/</code>에 저장되며 GitHub에 올라가지 않습니다.</p>
     </section>
 
     <section>

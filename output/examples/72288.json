@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.0",
+  "post_id": "72288",
+  "title": "OpenSSH 보안 업데이트 권고",
+  "published_at": "2026-11-07",
+  "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72288",
+  "cve_ids": [
+    "CVE-2026-123158"
+  ],
+  "vulnerability_types": [
+    "인증 우회"
+  ],
+  "manufacturers": [],
+  "affected_products": [
+    {
+      "manufacturer": null,
+      "product_name": "OpenSSH (musl 기반 리눅스)",
+      "affected_version": "10.6p1 이하",
+      "fixed_version_or_action": "10.6p2",
+      "cve_ids": [
+        "CVE-2026-123158"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "Alpine Linux edge (openssh)",
+      "affected_version": "10.6_p2-r0 미만",
+      "fixed_version_or_action": "10.6_p2-r0",
+      "cve_ids": [
+        "CVE-2026-123158"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "Alpine Linux 3.24 (openssh)",
+      "affected_version": "10.3_p1-r2 미만",
+      "fixed_version_or_action": "10.3_p1-r2",
+      "cve_ids": [
+        "CVE-2026-123158"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "Alpine Linux 3.23 (openssh)",
+      "affected_version": "10.2_p1-r1 미만",
+      "fixed_version_or_action": "10.2_p1-r1",
+      "cve_ids": [
+        "CVE-2026-123158"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "Alpine Linux 3.22 (openssh)",
+      "affected_version": "10.0_p1-r11 미만",
+      "fixed_version_or_action": "10.0_p1-r11",
+      "cve_ids": [
+        "CVE-2026-123158"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "Alpine Linux 3.21 (openssh)",
+      "affected_version": "9.9_p2-r1 미만",
+      "fixed_version_or_action": "9.9_p2-r1",
+      "cve_ids": [
+        "CVE-2026-123158"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "Alpine Linux 3.20 (openssh)",
+      "affected_version": "9.7_p1-r6 미만",
+      "fixed_version_or_action": "9.7_p1-r6",
+      "cve_ids": [
+        "CVE-2026-123158"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "Alpine Linux 3.19 (openssh)",
+      "affected_version": "9.6_p1-r3 미만",
+      "fixed_version_or_action": "9.6_p1-r3",
+      "cve_ids": [
+        "CVE-2026-123158"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "Alpine Linux 3.18 (openssh)",
+      "affected_version": "9.3_p2-r4 미만",
+      "fixed_version_or_action": "9.3_p2-r4",
+      "cve_ids": [
+        "CVE-2026-123158"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "Alpine Linux 3.17 (openssh)",
+      "affected_version": "9.1_p1-r7 미만",
+      "fixed_version_or_action": "9.1_p1-r7",
+      "cve_ids": [
+        "CVE-2026-123158"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "Alpine Linux 3.16 (openssh)",
+      "affected_version": "9.0_p1-r6 미만",
+      "fixed_version_or_action": "9.0_p1-r6",
+      "cve_ids": [
+        "CVE-2026-123158"
+      ]
+    },
+    {
+      "manufacturer": null,
+      "product_name": "Alpine Linux 3.15 이하 (openssh)",
+      "affected_version": "전 버전",
+      "fixed_version_or_action": "해결 버전으로 마이그레이션",
+      "cve_ids": [
+        "CVE-2026-123158"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "url": "https://security.alpinelinux.org/vuln/CVE-2026-123158",
+      "text": "https://security.alpinelinux.org/vuln/CVE-2026-123158"
+    },
+    {
+      "url": "https://www.openssh.com/releasenotes.html",
+      "text": "https://www.openssh.com/releasenotes.html"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158",
+      "text": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158"
+    }
+  ],
+  "review_required": false,
+  "warnings": []
+}

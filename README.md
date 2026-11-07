@@ -27,9 +27,9 @@ python -m boho_rss --config config.json
 
 실행 결과는 JSON 배열로 표준 출력에 표시되고, 공지별 JSON 파일은 `output/articles/<게시글ID>.json`에 저장됩니다. 같은 공지를 다시 수집하면 해당 파일을 새 결과로 덮어씁니다. 파싱이나 요청이 실패하면 오류를 표시하고 종료 코드 1을 반환합니다.
 
-`output/` 폴더의 수집 결과는 실행할 때 만들어지는 산출물이므로 GitHub 저장소에는 올리지 않습니다. 저장소를 내려받은 뒤 프로그램을 실행하면 이 폴더와 JSON 파일이 생성됩니다.
+프로그램을 실행하면 전체 파싱 결과가 `output/articles/<게시글ID>.json`에 저장됩니다. 이 로컬 실행 결과에는 원문 본문 텍스트도 포함되며 GitHub에는 올리지 않습니다.
 
-JSON 결과 모양을 미리 확인할 수 있도록 일부 필드만 담은 [예시 파일](examples/sample_advisory.json)을 제공합니다. 전체 본문은 예시에 포함하지 않습니다.
+수집 결과를 보고 싶다면 공개 공지에서 추출한 구조화 정보 예시를 [output/examples/](output/examples/)에서 확인할 수 있습니다. 이 스냅샷에는 CVE, 제품·버전, 참고 링크가 들어가며 원문 설명 문단과 전체 본문은 제외했습니다. 필드 형태만 빠르게 확인할 수 있도록 [간단한 JSON 예시](examples/sample_advisory.json)도 제공합니다.
 
 ## JSON 형식
 
@@ -60,7 +60,8 @@ JSON 결과 모양을 미리 확인할 수 있도록 일부 필드만 담은 [�
 │   ├── rss.py            # RSS XML 파싱
 │   └── settings.py       # config.json 읽기와 설정 검증
 ├── output/
-│   └── articles/         # 수집된 공지별 JSON
+│   ├── articles/         # 실행 후 로컬에 생성되는 전체 결과 (Git 제외)
+│   └── examples/         # 공개용 구조화 결과 예시
 ├── examples/
 │   └── sample_advisory.json # 결과 JSON 형식 예시
 ├── config.json           # RSS 주소, 출력 폴더, 요청 설정
